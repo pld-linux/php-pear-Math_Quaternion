@@ -31,7 +31,7 @@ ij = k, jk = i, ki = j and
 ji = -k, kj = -i, ik = -j
 The above are known as "Hamilton's rules".
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasy s³u¿±ce do reprezentacji i obliczeñ na kwaternionach. Zawieraj±
