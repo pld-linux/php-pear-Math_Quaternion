@@ -8,7 +8,7 @@ Summary:	%{_class}_%{_subclass} - Classes that define Quaternions and their oper
 Summary(pl):	%{_class}_%{_subclass} -
 Name:		php-pear-%{_pearname}
 Version:	0.7
-Release:	0.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
