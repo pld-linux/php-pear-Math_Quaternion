@@ -5,7 +5,7 @@
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_class}_%{_subclass} - Classes that define Quaternions and their operations
-Summary(pl):	%{_class}_%{_subclass} -
+Summary(pl):	%{_class}_%{_subclass} - klasy definiuj±ce kwaterniony i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.7
 Release:	1
@@ -28,13 +28,25 @@ a real part and 3 imaginary and independent parts (i,j,k), such that:
 i^2 = j^2 = k^2 = -1 and
 ij = k, jk = i, ki = j and
 ji = -k, kj = -i, ik = -j
-The above are known as "Hamilton's rules"
+The above are known as "Hamilton's rules".
 
-This class has in PEAR status: %{_status}
+This class has in PEAR status: %{_status}.
 
 %description -l pl
+Klasy s³u¿±ce do reprezentacji i obliczeñ na kwaternionach. Zawieraj±
+definicje podstawowych dzia³añ arytmetycznych w tej statycznej klasie.
+Kwaterniony s± rozszerzeniem idei liczb zespolonych; kwaternion jest
+zdefiniowany jako:
+q = a + b*i + c*j + d*k
+W roku 1844 Hamilton opisa³ system, w którym liczby sk³adaj± siê z
+czê¶ci rzeczywistej oraz 3 urojonych, niezale¿nych czê¶ci (i,j,k),
+takich ¿e:
+i^2 = j^2 = k^2 = -1  oraz
+ij = k, jk = i, ki = j  oraz
+ji = -k, kj = -i, ik = -j
+Powy¿sze zasady znane s± jako "regu³y Hamiltona".
 
-Ta klasa ma w PEAR status: %{_status}
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
