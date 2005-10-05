@@ -2,13 +2,13 @@
 %define		_class		Math
 %define		_subclass	Quaternion
 %define		_status		beta
-
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_class}_%{_subclass} - Classes that define Quaternions and their operations
 Summary(pl):	%{_class}_%{_subclass} - klasy definiuj±ce kwaterniony i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.7.1
-Release:	2.1
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	c52ea340a25502696f0d013d4ec05be3
