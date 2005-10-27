@@ -9,6 +9,7 @@ Summary(pl):	%{_class}_%{_subclass} - klasy definiuj±ce kwaterniony i operacje n
 Name:		php-pear-%{_pearname}
 Version:	0.7.1
 Release:	3
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	c52ea340a25502696f0d013d4ec05be3
