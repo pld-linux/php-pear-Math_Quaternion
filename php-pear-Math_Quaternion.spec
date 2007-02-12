@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_class}_%{_subclass} - Classes that define Quaternions and their operations
-Summary(pl):	%{_class}_%{_subclass} - klasy definiuj±ce kwaterniony i operacje na nich
+Summary(pl.UTF-8):   %{_class}_%{_subclass} - klasy definiujÄ…ce kwaterniony i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.7.1
 Release:	4
@@ -36,25 +36,25 @@ The above are known as "Hamilton's rules".
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasy s³u¿±ce do reprezentacji i obliczeñ na kwaternionach. Zawieraj±
-definicje podstawowych dzia³añ arytmetycznych w tej statycznej klasie.
-Kwaterniony s± rozszerzeniem idei liczb zespolonych; kwaternion jest
+%description -l pl.UTF-8
+Klasy sÅ‚uÅ¼Ä…ce do reprezentacji i obliczeÅ„ na kwaternionach. ZawierajÄ…
+definicje podstawowych dziaÅ‚aÅ„ arytmetycznych w tej statycznej klasie.
+Kwaterniony sÄ… rozszerzeniem idei liczb zespolonych; kwaternion jest
 zdefiniowany jako:
 q = a + b*i + c*j + d*k
-W roku 1844 Hamilton opisa³ system, w którym liczby sk³adaj± siê z
-czê¶ci rzeczywistej oraz 3 urojonych, niezale¿nych czê¶ci (i,j,k),
-takich ¿e:
+W roku 1844 Hamilton opisaÅ‚ system, w ktÃ³rym liczby skÅ‚adajÄ… siÄ™ z
+czÄ™Å›ci rzeczywistej oraz 3 urojonych, niezaleÅ¼nych czÄ™Å›ci (i,j,k),
+takich Å¼e:
 i^2 = j^2 = k^2 = -1  oraz
 ij = k, jk = i, ki = j  oraz
 ji = -k, kj = -i, ik = -j
-Powy¿sze zasady znane s± jako "regu³y Hamiltona".
+PowyÅ¼sze zasady znane sÄ… jako "reguÅ‚y Hamiltona".
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -63,7 +63,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
