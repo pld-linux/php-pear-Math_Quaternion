@@ -12,8 +12,8 @@ Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	c52ea340a25502696f0d013d4ec05be3
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	c52ea340a25502696f0d013d4ec05be3
 URL:		http://pear.php.net/package/Math_Quaternion/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
