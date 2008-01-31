@@ -8,7 +8,7 @@ Summary:	%{_class}_%{_subclass} - Classes that define Quaternions and their oper
 Summary(pl.UTF-8):	%{_class}_%{_subclass} - klasy definiujące kwaterniony i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.7.1
-Release:	4
+Release:	5
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
