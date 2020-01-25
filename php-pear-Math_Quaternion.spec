@@ -1,6 +1,5 @@
 %define		status		beta
 %define		pearname	Math_Quaternion
-%include	/usr/lib/rpm/macros.php
 Summary:	Classes that define Quaternions and their operations
 Summary(pl.UTF-8):	klasy definiujące kwaterniony i operacje na nich
 Name:		php-pear-%{pearname}
